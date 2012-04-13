@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<categories>
+			<category name="user.profile.socialnetworks">
+				<parent>user.profile</parent>
+			</category>
+		</categories>
+		<options>
+			<option name="user_googleplus_url_select">
+				<categoryname>user.profile.socialnetworks</categoryname>
+				<optiontype>select</optiontype>
+				<defaultvalue><![CDATA[GOOGLEPLUS]]></defaultvalue>
+				<selectoptions><![CDATA[GOOGLEPLUS:wcf.user.profile.socialnetworks.url.googleplus
+TOGPLUSCOM:wcf.user.profile.socialnetworks.url.togpluscom
+GPLUSTO:wcf.user.profile.socialnetworks.url.gplusto]]></selectoptions>
+			</option>
+			<option name="user_facebook_url_select">
+				<categoryname>user.profile.socialnetworks</categoryname>
+				<optiontype>select</optiontype>
+				<defaultvalue><![CDATA[FACEBOOKNAME]]></defaultvalue>
+				<selectoptions><![CDATA[FACEBOOKNAME:wcf.user.profile.socialnetworks.url.facebookname
+FACEBOOKID:wcf.user.profile.socialnetworks.url.facebookid]]></selectoptions>
+			</option>
+		</options>
+	</import>
+</data>

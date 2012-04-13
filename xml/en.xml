@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.category.profile.messenger"><![CDATA[Instant messenger]]></item>
+		<item name="wcf.user.option.aim"><![CDATA[AOL Instant Messenger (AIM)]]></item>
+		<item name="wcf.user.option.aim.description"><![CDATA[The name of your AIM account]]></item>
+		<item name="wcf.user.option.icq"><![CDATA[ICQ]]></item>
+		<item name="wcf.user.option.icq.description"><![CDATA[The number of your ICQ account]]></item>
+		<item name="wcf.user.option.msn"><![CDATA[Windows Live Messenger]]></item>
+		<item name="wcf.user.option.msn.description"><![CDATA[The name of your Windows Live Messenger account]]></item>
+		<item name="wcf.user.option.skype"><![CDATA[Skype]]></item>
+		<item name="wcf.user.option.skype.description"><![CDATA[Your Skype name]]></item>
+		<item name="wcf.user.option.yim"><![CDATA[Yahoo! Instant Messenger (YIM)]]></item>
+		<item name="wcf.user.option.yim.description"><![CDATA[The name of your YIM account]]></item>
+		<item name="wcf.user.option.jabber"><![CDATA[Jabber]]></item>
+		<item name="wcf.user.option.jabber.description"><![CDATA[The name of your Jabber account]]></item>
+	</category>
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.aim.title"><![CDATA[&quot;{$username}&quot; on AOL Instant Messenger (AIM) Contact List]]></item>
+		<item name="wcf.user.profile.icq.title"><![CDATA[ICQ Profile of &quot;{$username}&quot;]]></item>
+		<item name="wcf.user.profile.msn.title"><![CDATA[Windows Live Messenger (MSN) Profile by &quot;{$username}&quot; View]]></item>
+		<item name="wcf.user.profile.skype.title"><![CDATA[&quot;{$username}&quot; on Skype Contact List]]></item>
+		<item name="wcf.user.profile.yim.title"><![CDATA[Yahoo! Instant Messenger (YIM) Profile by &quot;{$username}&quot; View]]></item>
+		<item name="wcf.user.profile.jabber.title"><![CDATA[Contact &quot;{$username}&quot; by Jabber]]></item>
+	</category>
+</language>
