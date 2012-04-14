@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<package name="de.community4wcf.wcf.profile.socialnetworks" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+<package name="de.community4wcf.wcf.profile.socialnetworks.vz" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
 	<packageinformation>
-		<packagename><![CDATA[Social Networks]]></packagename>
-		<packagename language="de"><![CDATA[Soziale Netzwerke]]></packagename>
-		<packagename language="de-informal"><![CDATA[Soziale Netzwerke]]></packagename>
-		<packagedescription><![CDATA[This plugin adds "Social Networks" profile fields (Facebook, Google+, Twitter).]]></packagedescription>
-		<packagedescription language="de"><![CDATA[Dieses Plugin fügt für die "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden aktuell: Facebook, Google+, Twitter]]></packagedescription>
-		<packagedescription language="de-informal"><![CDATA[Dieses Plugin fügt für die "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden aktuell: Facebook, Google+, Twitter]]></packagedescription>
-		<version>1.0.0 Beta 1</version> <!-- codename: Social Networks -->
+		<packagename><![CDATA[Social Networks - VZ Networks]]></packagename>
+		<packagename language="de"><![CDATA[Soziale Netzwerke - VZ Netzwerke]]></packagename>
+		<packagename language="de-informal"><![CDATA[Soziale Netzwerke - VZ Netzwerke]]></packagename>
+		<packagedescription><![CDATA[This plugin adds "Social Networks" profile fields (studiVZ, meinVZ, schülerVZ).]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Dieses Plugin fügt für die "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden aktuell: studiVZ, meinVZ, schülerVZ]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Dieses Plugin fügt für die "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden aktuell: studiVZ, meinVZ, schülerVZ]]></packagedescription>
+		<version>1.0.0 Beta 1</version> <!-- codename: Social Networks - VZ Networks -->
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
 		<date>2012-04-14</date>
 		<isunique>1</isunique>
@@ -15,7 +15,7 @@
 		<plugin>com.woltlab.wcf.page.user.profile</plugin>
 	</packageinformation>
 	
-	<!-- Icons:	-->
+	<!-- Icons: -->
 	
 	<licenseinformation>
 		<license><![CDATA[LGPL]]></license>
@@ -33,11 +33,10 @@
 	<!--
 	<optionalpackages>
 		<optionalpackage file="optionals/de.community4wcf.wcf.profile.socialnetworks.business.tar">de.community4wcf.wcf.profile.socialnetworks.business</optionalpackage>
-		<optionalpackage file="optionals/de.community4wcf.wcf.profile.socialnetworks.vz.tar">de.community4wcf.wcf.profile.socialnetworks.vz</optionalpackage>
 		<optionalpackage file="optionals/de.community4wcf.wcf.profile.socialnetworks.extension.tar">de.community4wcf.wcf.profile.socialnetworks.extension</optionalpackage>
+		<optionalpackage file="optionals/de.community4wcf.wcf.profile.socialnetworks.tar">de.community4wcf.wcf.profile.socialnetworks</optionalpackage>
 	</optionalpackages>
 	<excludedpackages>
-		<excludedpackage>de.easy-coding.wcf.plus</excludedpackage>
 		<excludedpackage>****</excludedpackage>
 	</excludedpackages>
 	-->
@@ -47,7 +46,6 @@
 		<files>files.tar</files>
 		<!-- config -->
 		<useroptions>xml/useroptions.xml</useroptions>
-		<options>xml/options.xml</options>
 		<!-- languages -->
 		<!--
 		<languages languagecode="de">xml/de.xml</languages>
@@ -60,7 +58,6 @@
 		<files>files.tar</files>
 		<!-- config -->
 		<useroptions>xml/useroptions.xml</useroptions>
-		<options>xml/options.xml</options>
 		<!-- languages -->
 		<!--
 		<languages languagecode="de">xml/de.xml</languages>

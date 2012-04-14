@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/useroptions.xsd">
+	<import>
+		<!--
+		<categories>
+			<category name="profile.socialnetworks">
+				<parent>profile</parent>
+			</category>
+		</categories>
+		-->
+		<options>
+			<option name="meinvz">
+				<categoryname>profile.contact</categoryname>
+				<outputclass>UserOptionOutputMeinVZ</outputclass>
+				<optiontype>text</optiontype>
+				<showorder>15</showorder>
+				<editable>0</editable>
+				<visible>0</visible>
+				<searchable>1</searchable>
+			</option>
+			<option name="studivz">
+				<categoryname>profile.contact</categoryname>
+				<outputclass>UserOptionOutputStudiVZ</outputclass>
+				<optiontype>text</optiontype>
+				<showorder>16</showorder>
+				<editable>0</editable>
+				<visible>0</visible>
+				<searchable>1</searchable>
+			</option>
+			<option name="schuelervz">
+				<categoryname>profile.contact</categoryname>
+				<outputclass>UserOptionOutputSchuelerVZ</outputclass>
+				<optiontype>text</optiontype>
+				<showorder>17</showorder>
+				<editable>0</editable>
+				<visible>0</visible>
+				<searchable>1</searchable>
+			</option>
+		</options>
+	</import>
+</data>
