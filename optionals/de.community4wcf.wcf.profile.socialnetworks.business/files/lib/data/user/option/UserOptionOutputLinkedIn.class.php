@@ -16,7 +16,7 @@ class UserOptionOutputLinkedIn implements UserOptionOutput, UserOptionOutputCont
 	 * getURL from Options
 	*/
 	public function getURL() {
-		return $url = 'https://twitter.com/';
+		return $url = 'https://www.linkedin.com/pub/';
 	}
 	
 	/*

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.linkedin"><![CDATA[LinkedIn]]></item>
+		<item name="wcf.user.option.linkedin.description"><![CDATA[Your LinkedIn &quot;Name/xx/xxx/xx&quot; from the Profile-URL.]]></item>
+		<item name="wcf.user.option.xing"><![CDATA[XING]]></item>
+		<item name="wcf.user.option.xing.description"><![CDATA[Your XING &quot;Name&quot; from the Profile-URL.]]></item>
+	</category>
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.linkedin.title"><![CDATA[Visit the LinkedIn profile of &quot;{$username}&quot;]]></item>
+		<item name="wcf.user.profile.xing.title"><![CDATA[Visit the XING profile of &quot;{$username}&quot;]]></item>
+	</category>
+</language>
