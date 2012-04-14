@@ -37,11 +37,9 @@
 		<!-- config -->
 		<useroptions>xml/useroptions.xml</useroptions>
 		<!-- languages -->
-		<!--
 		<languages languagecode="de">xml/de.xml</languages>
 		<languages languagecode="de-informal">xml/de-informal.xml</languages>
 		<languages languagecode="en">xml/en.xml</languages>
-		-->
 	</instructions> 
 	<instructions type="update" fromversion="1.0.*">
 		<!-- files -->
@@ -49,10 +47,8 @@
 		<!-- config -->
 		<useroptions>xml/useroptions.xml</useroptions>
 		<!-- languages -->
-		<!--
 		<languages languagecode="de">xml/de.xml</languages>
 		<languages languagecode="de-informal">xml/de-informal.xml</languages>
 		<languages languagecode="en">xml/en.xml</languages>
-		-->
 	</instructions>
 </package>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.meinvz"><![CDATA[meinVZ]]></item>
+		<item name="wcf.user.option.meinvz.description"><![CDATA[Deine meinVZ ID aus der Profil-URL. (Die ID stimmt mit der ID für/von studiVZ überein.)]]></item>
+		<item name="wcf.user.option.studivz"><![CDATA[studiVZ]]></item>
+		<item name="wcf.user.option.studivz.description"><![CDATA[Deine studiVZ ID aus der Profil-URL. (Die ID stimmt mit der ID für/von meinVZ überein.)]]></item>
+		<item name="wcf.user.option.schuelervz"><![CDATA[schülerVZ]]></item>
+		<item name="wcf.user.option.schuelervz.description"><![CDATA[Deine schülerVZ ID aus der Profil-URL.]]></item>
+	</category>
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.meinvz.title"><![CDATA[meinVZ Profil von &quot;{$username}&quot; besuchen]]></item>
+		<item name="wcf.user.profile.studivz.title"><![CDATA[studiVZ Profil von &quot;{$username}&quot; besuchen]]></item>
+		<item name="wcf.user.profile.schuelervz.title"><![CDATA[schülerVZ Profil von &quot;{$username}&quot; besuchen]]></item>
+	</category>
+</language>
