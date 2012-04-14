@@ -1,26 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
 	<category name="wcf.user.option">
-		<item name="wcf.user.option.category.profile.messenger"><![CDATA[Instant Messenger]]></item>
-		<item name="wcf.user.option.aim"><![CDATA[AIM]]></item>
-		<item name="wcf.user.option.aim.description"><![CDATA[Der Name deines AOL Instant Messenger-Accounts]]></item>
-		<item name="wcf.user.option.icq"><![CDATA[ICQ]]></item>
-		<item name="wcf.user.option.icq.description"><![CDATA[Die Nummer deines ICQ-Accounts]]></item>
-		<item name="wcf.user.option.msn"><![CDATA[Windows Live]]></item>
-		<item name="wcf.user.option.msn.description"><![CDATA[Der Name deines Windows Live Messenger-Accounts]]></item>
-		<item name="wcf.user.option.skype"><![CDATA[Skype]]></item>
-		<item name="wcf.user.option.skype.description"><![CDATA[Dein Skype-Name]]></item>
-		<item name="wcf.user.option.yim"><![CDATA[YIM]]></item>
-		<item name="wcf.user.option.yim.description"><![CDATA[Der Name deines Yahoo! Instant Messenger-Accounts]]></item>
-		<item name="wcf.user.option.jabber"><![CDATA[Jabber]]></item>
-		<item name="wcf.user.option.jabber.description"><![CDATA[Der Name deines Jabber-Accounts]]></item>
+		<item name="wcf.user.option.facebook"><![CDATA[Facebook]]></item>
+		<item name="wcf.user.option.facebook.description"><![CDATA[Dein Facebook Nutzername.]]></item>
+		<item name="wcf.user.option.google.plus"><![CDATA[Google+]]></item>
+		<item name="wcf.user.option.google.plus.description"><![CDATA[Deine Google+ ID.]]></item>
+		<item name="wcf.user.option.twitter"><![CDATA[Twitter]]></item>
+		<item name="wcf.user.option.twitter.description"><![CDATA[Dein Twitter Accountname.]]></item>
 	</category>
 	<category name="wcf.user.profile">
-		<item name="wcf.user.profile.aim.title"><![CDATA[&quot;{$username}&quot; zur AOL Instant Messenger (AIM) Kontaktliste hinzufügen]]></item>
-		<item name="wcf.user.profile.icq.title"><![CDATA[ICQ Profil von &quot;{$username}&quot; anzeigen]]></item>
-		<item name="wcf.user.profile.msn.title"><![CDATA[Windows Live Messenger (MSN) Profil von &quot;{$username}&quot; anzeigen]]></item>
-		<item name="wcf.user.profile.skype.title"><![CDATA[&quot;{$username}&quot; zur Skype Kontaktliste hinzufügen]]></item>
-		<item name="wcf.user.profile.yim.title"><![CDATA[Yahoo! Instant Messenger (YIM) Profil von &quot;{$username}&quot; anzeigen]]></item>
-		<item name="wcf.user.profile.jabber.title"><![CDATA[&raquo;{$username}&laquo; über Jabber kontaktieren]]></item>
+		<item name="wcf.user.profile.facebook.title"><![CDATA[Facebook Profil von &quot;{$username}&quot; besuchen]]></item>
+		<item name="wcf.user.profile.google.plus.title"><![CDATA[Google+ Profil von &quot;{$username}&quot; besuchen]]></item>
+		<item name="wcf.user.profile.twitter.title"><![CDATA[Twitter Profil von &quot;{$username}&quot; besuchen]]></item>
+		<!-- URL selcet -->
+		<item name="wcf.user.profile.socialnetworks.url.googleplus"><![CDATA[Google+ ID]]></item>
+		<item name="wcf.user.profile.socialnetworks.url.togpluscom"><![CDATA[short URL: togplus.com]]></item>
+		<item name="wcf.user.profile.socialnetworks.url.gplusto"><![CDATA[short URL: gplus.to]]></item>
+		<item name="wcf.user.profile.socialnetworks.url.facebookname"><![CDATA[Facebook Nutzername]]></item>
+		<item name="wcf.user.profile.socialnetworks.url.facebookid"><![CDATA[Facebook ID]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.profile.socialnetworks"><![CDATA[Soziale Netzwerke]]></item>
+		<item name="wcf.acp.option.category.user.profile.socialnetworks.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.user_googleplus_url_select"><![CDATA[Google+ URL]]></item>
+		<item name="wcf.acp.option.user_googleplus_url_select.description"><![CDATA[Wähle hier, ob der Benutzer seine Google+ ID (Standard) oder einen G+ &quot;short URL&quot; Service (togplus.com oder gplus.to) verwenden soll.]]></item>
+		<item name="wcf.acp.option.user_facebook_url_select"><![CDATA[Facebook URL]]></item>
+		<item name="wcf.acp.option.user_facebook_url_select.description"><![CDATA[Wähle hier, ob der Benutzer seinen Facebook Nutzername (Standard) oder seine Profil-ID eingeben soll.]]></item>
 	</category>
 </language>
