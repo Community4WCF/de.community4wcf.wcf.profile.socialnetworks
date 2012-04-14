@@ -1,5 +1,0 @@
-ToDo (German):
-
-Sprachfiles:
-	- verbessern - evt. Erklärung(z.B. https://www.facebook.com/settings?tab=account&section=username&view )
-	- hinzufügen

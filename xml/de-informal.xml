@@ -2,11 +2,11 @@
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
 	<category name="wcf.user.option">
 		<item name="wcf.user.option.facebook"><![CDATA[Facebook]]></item>
-		<item name="wcf.user.option.facebook.description"><![CDATA[Dein Facebook Nutzername.]]></item>
+		<item name="wcf.user.option.facebook.description"><![CDATA[Dein Facebook Nutzername. Diesen kannst du auf Facebook unter <a href="https://www.facebook.com/settings?tab=account&section=username&view" class="externalURL">Kontoeinstellungen</a> einstellen.]]></item>
 		<item name="wcf.user.option.google.plus"><![CDATA[Google+]]></item>
 		<item name="wcf.user.option.google.plus.description"><![CDATA[Deine Google+ ID.]]></item>
 		<item name="wcf.user.option.twitter"><![CDATA[Twitter]]></item>
-		<item name="wcf.user.option.twitter.description"><![CDATA[Dein Twitter Accountname.]]></item>
+		<item name="wcf.user.option.twitter.description"><![CDATA[Dein Twitter Benutzername.]]></item>
 	</category>
 	<category name="wcf.user.profile">
 		<item name="wcf.user.profile.facebook.title"><![CDATA[Facebook Profil von &quot;{$username}&quot; besuchen]]></item>
@@ -23,8 +23,8 @@
 		<item name="wcf.acp.option.category.user.profile.socialnetworks"><![CDATA[Soziale Netzwerke]]></item>
 		<item name="wcf.acp.option.category.user.profile.socialnetworks.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.user_googleplus_url_select"><![CDATA[Google+ URL]]></item>
-		<item name="wcf.acp.option.user_googleplus_url_select.description"><![CDATA[Wähle hier, ob der Benutzer seine Google+ ID (Standard) oder einen G+ &quot;short URL&quot; Service (togplus.com oder gplus.to) verwenden soll.]]></item>
+		<item name="wcf.acp.option.user_googleplus_url_select.description"><![CDATA[Wähle hier, ob der Benutzer seine Google+ ID (Standard) oder einen G+ &quot;short URL&quot; Service (togplus.com oder gplus.to) verwenden soll. Es wird empfohlen die Standardeinstellung beizubehalten oder die Benutzer über die Nutzung von &quot;short URL&quot; zu informieren.]]></item>
 		<item name="wcf.acp.option.user_facebook_url_select"><![CDATA[Facebook URL]]></item>
-		<item name="wcf.acp.option.user_facebook_url_select.description"><![CDATA[Wähle hier, ob der Benutzer seinen Facebook Nutzername (Standard) oder seine Profil-ID eingeben soll.]]></item>
+		<item name="wcf.acp.option.user_facebook_url_select.description"><![CDATA[Wähle hier, ob der Benutzer seinen Facebook Nutzername (Standard/Empfohlen) oder seine Profil-ID eingeben soll. Es wird empfohlen die Standardeinstellung beizubehalten, da einige keine Profil-ID besitzen und der Nutzername unter Kontoeinstellungen auf Facebook festgelegt werden kann.]]></item>
 	</category>
 </language>

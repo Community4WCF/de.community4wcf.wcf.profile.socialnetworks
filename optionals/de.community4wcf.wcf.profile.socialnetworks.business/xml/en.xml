@@ -2,7 +2,7 @@
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
 	<category name="wcf.user.option">
 		<item name="wcf.user.option.linkedin"><![CDATA[LinkedIn]]></item>
-		<item name="wcf.user.option.linkedin.description"><![CDATA[Your LinkedIn &quot;Name/xx/xxx/xx&quot; from the Profile-URL.]]></item>
+		<item name="wcf.user.option.linkedin.description"><![CDATA[Your LinkedIn &quot;Name&quot; from the Profile-URL including following, so &quot;Name/xx/xxx/xx&quot;.]]></item>
 		<item name="wcf.user.option.xing"><![CDATA[XING]]></item>
 		<item name="wcf.user.option.xing.description"><![CDATA[Your XING &quot;Name&quot; from the Profile-URL.]]></item>
 	</category>

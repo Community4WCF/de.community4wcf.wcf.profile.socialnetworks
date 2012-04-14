@@ -5,9 +5,9 @@
 		<packagename language="de"><![CDATA[Soziale Netzwerke - Geschäftlich]]></packagename>
 		<packagename language="de-informal"><![CDATA[Soziale Netzwerke - Geschäftlich]]></packagename>
 		<packagedescription><![CDATA[This plugin adds "Social Networks" profile fields (XING, LinkedIn).]]></packagedescription>
-		<packagedescription language="de"><![CDATA[Dieses Plugin fügt für die "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden aktuell: XING, LinkedIn]]></packagedescription>
-		<packagedescription language="de-informal"><![CDATA[Dieses Plugin fügt für die "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden aktuell: XING, LinkedIn]]></packagedescription>
-		<version>1.0.0 Beta 2</version> <!-- codename: Social Networks - Business -->
+		<packagedescription language="de"><![CDATA[Dieses Plugin fügt "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden: XING, LinkedIn]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Dieses Plugin fügt "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden: XING, LinkedIn]]></packagedescription>
+		<version>1.0.0</version> <!-- codename: Social Networks - Business -->
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
 		<date>2012-04-14</date>
 		<isunique>1</isunique>
@@ -30,16 +30,6 @@
 		<requiredpackage minversion="1.1.6">com.woltlab.wcf.page.user.profile</requiredpackage>
 		<requiredpackage minversion="1.1.8">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
-	<!--
-	<optionalpackages>
-		<optionalpackage file="optionals/de.community4wcf.wcf.profile.socialnetworks.vz.tar">de.community4wcf.wcf.profile.socialnetworks.vz</optionalpackage>
-		<optionalpackage file="optionals/de.community4wcf.wcf.profile.socialnetworks.extension.tar">de.community4wcf.wcf.profile.socialnetworks.extension</optionalpackage>
-		<optionalpackage file="optionals/de.community4wcf.wcf.profile.socialnetworks.tar">de.community4wcf.wcf.profile.socialnetworks</optionalpackage>
-	</optionalpackages>
-	<excludedpackages>
-		<excludedpackage>****</excludedpackage>
-	</excludedpackages>
-	-->
 	
 	<instructions type="install">
 		<!-- files -->
