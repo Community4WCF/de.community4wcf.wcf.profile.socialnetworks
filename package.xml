@@ -7,7 +7,7 @@
 		<packagedescription><![CDATA[This plugin adds "Social Networks" profile fields (Facebook, Google+, Twitter).]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Dieses Plugin fügt "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden: Facebook, Google+, Twitter]]></packagedescription>
 		<packagedescription language="de-informal"><![CDATA[Dieses Plugin fügt "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden: Facebook, Google+, Twitter]]></packagedescription>
-		<version>1.0.0</version> <!-- codename: Social Networks -->
+		<version>1.0.1</version> <!-- codename: Social Networks -->
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
 		<date>2012-04-15</date>
 		<isunique>1</isunique>
@@ -38,8 +38,12 @@
 		-->
 	</optionalpackages>
 	<excludedpackages>
-		<!-- <excludedpackage>de.easy-coding.wcf.plus</excludedpackage> -->
 		<excludedpackage>de.easy-coding.wcf.twitter</excludedpackage>
+		<excludedpackage>org.gnex.facebook.auth</excludedpackage>
+		<!-- <excludedpackage>de.easy-coding.wcf.plus</excludedpackage> -->
+		<excludedpackage>de.s4w-host.profile.googleplus</excludedpackage>
+		<excludedpackage>de.s4w-host.profile.twitter</excludedpackage>
+		<excludedpackage>de.s4w-host.profile.facebook</excludedpackage>
 	</excludedpackages>
 	
 	<instructions type="install">

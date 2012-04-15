@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/useroptions.xsd">
+	<import>
+		<!--
+		<categories>
+			<category name="profile.socialnetworks">
+				<parent>profile</parent>
+			</category>
+		</categories>
+		-->
+		<options>
+			<option name="werkenntwen">
+				<categoryname>profile.contact</categoryname>
+				<outputclass>UserOptionOutputWerKenntWen</outputclass>
+				<optiontype>text</optiontype>
+				<showorder>18</showorder>
+				<editable>0</editable>
+				<visible>0</visible>
+				<searchable>1</searchable>
+			</option>
+		</options>
+	</import>
+</data>

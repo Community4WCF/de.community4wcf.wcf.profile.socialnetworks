@@ -5,18 +5,18 @@ require_once(WCF_DIR.'lib/data/user/option/UserOptionOutput.class.php');
 require_once(WCF_DIR.'lib/data/user/option/UserOptionOutputContactInformation.class.php');
 
 /*
- * Implements an StudiVZ Profilefield
- * @package		de.community4wcf.wcf.profile.socialnetworks.vz
+ * Implements an wer-kennt-wen.de Profilefield
+ * @package		de.community4wcf.wcf.profile.socialnetworks.extension
 */
  
-class UserOptionOutputStudiVZ implements UserOptionOutput, UserOptionOutputContactInformation {
-	protected $type = 'studivz';
+class UserOptionOutputWerKenntWen implements UserOptionOutput, UserOptionOutputContactInformation {
+	protected $type = 'werkenntwen';
 	
 	/*
 	 * getURL from Options
 	*/
 	public function getURL() {
-		return $url = 'http://www.studivz.net/#Profile/U:@';
+		return $url = 'http://www.wer-kennt-wen.de/person/';
 	}
 	
 	/*

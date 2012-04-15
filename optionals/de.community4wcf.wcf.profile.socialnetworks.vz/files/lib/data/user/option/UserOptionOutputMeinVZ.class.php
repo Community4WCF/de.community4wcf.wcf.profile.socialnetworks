@@ -6,7 +6,7 @@ require_once(WCF_DIR.'lib/data/user/option/UserOptionOutputContactInformation.cl
 
 /*
  * Implements an MeinVZ Profilefield
- * @package		de.community4wcf.wcf.profile.socialnetworks.business
+ * @package		de.community4wcf.wcf.profile.socialnetworks.vz
 */
  
 class UserOptionOutputMeinVZ implements UserOptionOutput, UserOptionOutputContactInformation {
