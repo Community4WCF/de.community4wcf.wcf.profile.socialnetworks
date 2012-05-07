@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.werkenntwen"><![CDATA[wer-kennt-wen (wkw)]]></item>
+		<item name="wcf.user.option.werkenntwen.description"><![CDATA[Your wer-kennt-wen (wkw) ID from the Profile-URL.]]></item>
+	</category>
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.werkenntwen.title"><![CDATA[Visit the wer-kennt-wen (wkw) profile of &quot;{$username}&quot;]]></item>
+	</category>
+</language>

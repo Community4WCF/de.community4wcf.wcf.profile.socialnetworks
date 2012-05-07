@@ -5,11 +5,11 @@
 		<packagename language="de"><![CDATA[Soziale Netzwerke - Erweiterung]]></packagename>
 		<packagename language="de-informal"><![CDATA[Soziale Netzwerke - Erweiterung]]></packagename>
 		<packagedescription><![CDATA[This plugin adds "Social Networks" profile fields (Wer-kennt-Wen, ...).]]></packagedescription>
-		<packagedescription language="de"><![CDATA[Dieses Plugin fügt "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden: Wer-kennt-Wen, ...]]></packagedescription>
-		<packagedescription language="de-informal"><![CDATA[Dieses Plugin fügt "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden: Wer-kennt-Wen, ...]]></packagedescription>
-		<version>1.0.0 Alpha 1</version> <!-- codename: Social Networks - Extension -->
+		<packagedescription language="de"><![CDATA[Dieses Plugin fügt "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden: Wer-kennt-Wen, ...weitere auf Wunsch]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Dieses Plugin fügt "Soziale Netzwerke" Profilfelder hinzu. Unterstützt werden: Wer-kennt-Wen, ...weitere auf Wunsch]]></packagedescription>
+		<version>1.0.0 Beta 1</version> <!-- codename: Social Networks - Extension -->
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
-		<date>2012-04-15</date>
+		<date>2012-05-08</date>
 		<isunique>1</isunique>
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wcf.page.user.profile</plugin>
@@ -31,17 +31,20 @@
 		<requiredpackage minversion="1.1.8">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
+	<excludedpackages>
+		<excludedpackage>de.s4w-host.profile.wkw</excludedpackage>
+		<!--<excludedpackage>de.s4w-host.profile.jappy</excludedpackage>-->
+	</excludedpackages>
+	
 	<instructions type="install">
 		<!-- files -->
 		<files>files.tar</files>
 		<!-- config -->
 		<useroptions>xml/useroptions.xml</useroptions>
 		<!-- languages -->
-		<!--
 		<languages languagecode="de">xml/de.xml</languages>
 		<languages languagecode="de-informal">xml/de-informal.xml</languages>
 		<languages languagecode="en">xml/en.xml</languages>
-		-->
 	</instructions> 
 	<instructions type="update" fromversion="1.0.*">
 		<!-- files -->
@@ -49,10 +52,8 @@
 		<!-- config -->
 		<useroptions>xml/useroptions.xml</useroptions>
 		<!-- languages -->
-		<!--
 		<languages languagecode="de">xml/de.xml</languages>
 		<languages languagecode="de-informal">xml/de-informal.xml</languages>
 		<languages languagecode="en">xml/en.xml</languages>
-		-->
 	</instructions>
 </package>
